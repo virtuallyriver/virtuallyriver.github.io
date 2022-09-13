@@ -1,3 +1,193 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
 
-(from a GitHub repo)
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Virtually River</title>
+  <style>
+    html, body {
+      font-family: Verdana,sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .section-container {
+      text-align: center;
+      width: 100%;
+    }
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .copyright-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    @media (min-width: 1200px) .container {
+      max-width: 1140px;
+    }
+
+    @media (min-width: 992px) .container {
+      max-width: 960px;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+
+      .link {
+        width: 100%;
+      }
+    }
+
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+
+    .profile-img {
+      margin: 16px !important;
+      border-radius: 50%;
+      height: 150px;
+      max-width: 100%;
+    }
+
+    .w3-large {
+      font-size: 18px !important;
+    }
+
+    .radius5 {
+      border-radius: 5px
+    }
+
+    .w3-tag {
+      display: inline-block;
+      padding-left: 8px;
+      padding-right: 8px;
+      text-align: center
+    }
+
+    /* cyberpunk colors */
+    .bg-dark-purple { background-color: #321a47; }
+    .bg-light-purple { background-color: #743eac; }
+    .bg-med-purple { background-color: #533ba3; }
+    .bg-pale-blue { background-color: #97bbe8; }
+    .bg-pink { background-color: #b058c6; }
+    .text-color-white { color: #fff }
+    .text-color-dark-purple { color: #321a47; }
+
+    .link {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      display: inline-block;
+      padding: 8px 16px;
+      vertical-align: middle;
+      overflow: hidden;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      white-space: nowrap;
+      background-color: #533ba3;
+      border: 1px solid #ccc !important;
+      border-radius: 5px;
+      color: #fff;
+      margin-bottom: 10px;
+      min-width: 50% !important;
+
+    }
+
+    .link:hover {
+      background-color: #b058c6 !important;
+    }
+
+  </style>
+</head>
+
+<body class="bg-pale-blue">
+  <!-- Content container -->
+  <div class="container">
+
+    <div class="section-container">
+      <img src="profile.jpg" class="profile-img">
+      <div class="text-color-dark-purple">
+        <p class="w3-large">
+          Welcome to <span class="w3-tag w3-large radius bg-dark-purple text-color-white"><strong>Virtually River's</strong></span> link
+          site!
+        </p>
+        <p class="w3-large"><strong>&#64vituallyriver on social media</strong></p>
+      </div>
+
+      <!-- Social Links -->
+      <div class="links-container">
+        <a href="https://www.instagram.com/virtuallyriver/"
+          class="link w3-large w3-button" target="_blank">Instagram</a>
+        <br>
+        <a href="https://twitter.com/virtuallyriver"
+          class="link w3-large" target="_blank">Twitter</a>
+        <br>
+        <a href="https://pinterest.com/virtuallyriver/virtually-rivers-art/"
+          class="link w3-large" target="_blank">Pinterest</a>
+        <br>
+        <a href="https://github.com/virtuallyriver"
+          class="link w3-large" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="section-container">
+      <div class="text-color-dark-purple">
+        <p class="w3-large"><strong>Prints, t-shirts, and accessories</strong></p>
+      </div>
+
+      <!-- Store Links -->
+      <div class="links-container">
+        <a href="https://www.redbubble.com/people/virtuallyriver/explore"
+          class="link w3-large w3-button" target="_blank">Redbubble</a>
+        <br>
+        <a href="https://www.teepublic.com/user/virtuallyriver"
+          class="link w3-large" target="_blank">TeePublic</a>
+      </div>
+    </div>
+
+    <div class="copyright-container">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
+        <path
+          d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+        </path>
+      </svg>
+      <span style="vertical-align: 7px;"> &nbsp; 2022 - Virtually River &nbsp;</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
+        <path
+          d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+        </path>
+      </svg>
+    </div>
+    
+  </div>
+
+</body>
+
+</html>
