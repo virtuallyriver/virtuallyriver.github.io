@@ -1,0 +1,108 @@
+html,
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-container {
+    text-align: center;
+    width: 100%;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px) {
+    .container { max-width: 1140px; }
+}
+
+@media (min-width: 992px) {
+    .container { max-width: 960px; }
+}
+
+@media (min-width: 768px) {
+    .container { max-width: 720px; }
+    .link { width: 100%; }
+}
+
+@media (min-width: 576px) {
+    .container { max-width: 540px; }
+}
+
+.profile-img {
+    margin: 16px !important;
+    border-radius: 50%;
+    height: 150px;
+    max-width: 100%;
+}
+
+.w3-large {
+    font-size: 18px !important;
+}
+
+.radius5 {
+    border-radius: 5px
+}
+
+.w3-tag {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center
+}
+
+/* cyberpunk colors */
+.bg-dark-purple { background-color: #321a47; }
+.bg-light-purple { background-color: #743eac; }
+.bg-med-purple { background-color: #533ba3; }
+.bg-pale-blue { background-color: #97bbe8; }
+.bg-pink { background-color: #b058c6; }
+
+.text-color-white { color: #fff }
+.text-color-dark-purple { color: #321a47; }
+
+.link {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #533ba3;
+    border: 1px solid #ccc !important;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+    min-width: 50% !important;
+
+}
+
+.link:hover {
+    background-color: #b058c6 !important;
+}
