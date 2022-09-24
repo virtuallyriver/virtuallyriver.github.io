@@ -2,6 +2,7 @@ Welcome to **Virtually River's** links!
 
 Prints, t-shirts, and accessories
 - [Redbubble](https://www.redbubble.com/people/virtuallyriver/explore)
+- [Society6](https://society6.com/virtuallyriver)
 - [TeePublic](https://www.teepublic.com/user/virtuallyriver)
 
 @vituallyriver on social media
